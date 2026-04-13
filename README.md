@@ -67,6 +67,6 @@ Add CLI arguments instead of input()
 Export to CSV / Excel
 Add data visualization 📈
 Build a web interface
-👨‍💻 Author
 
+👨‍💻 Author
 Omkar Koli
