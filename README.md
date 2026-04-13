@@ -1,35 +1,35 @@
 # 📊 Student Activity Log Analyzer
 
-A simple and efficient Python script to analyze student activity logs and generate useful insights such as time spent, activity frequency, and lab usage.
+A Python script that reads a student activity log file, analyzes the data, and generates a structured summary report in a new output file.
 
 ---
 
 ## 🚀 Features
 
-* ✅ Calculates total time spent by each student
-* ✅ Identifies the most common activity
-* ✅ Tracks total lab time per day
-* ✅ Handles invalid or messy data gracefully
-* ✅ Lightweight and beginner-friendly
+* 📥 Accepts custom input file from user
+* 📄 Automatically generates output file
+* ⏱️ Calculates total time spent by each student
+* 📊 Finds the most common activity
+* 🧪 Tracks total lab time per day
+* 🧹 Skips invalid or incorrect data safely
 
 ---
 
 ## 📂 Project Structure
 
-```
+```id="tree12"
 .
-├── Activity_log4.txt   # Input file
-├── main.py             # Python script
-└── README.md           # Project documentation
+├── main.py               
+├── Activity_log4.txt    
+├── Activity_log4_out.txt 
+└── README.md
 ```
 
 ---
 
 ## 📝 Input File Format
 
-The script expects a `.txt` file with comma-separated values:
-
-```
+```id="input99"
 Date, Student, Activity, Duration
 2026-04-01, Omkar, Lab, 60
 2026-04-01, vinitha, Lecture, 45
@@ -40,73 +40,75 @@ Date, Student, Activity, Duration
 
 ## ▶️ How to Run
 
-1. Make sure you have Python installed
-2. Place your `Activity_log4.txt` file in the project folder
-3. Run the script:
-
-```bash
+```bash id="run22"
 python main.py
+```
+
+```id="prompt77"
+Enter input file name: Activity_log4.txt
+```
+
+---
+
+## 📤 Output
+
+```id="jjokku"
+Activity_log4.txt → Activity_log4_out.txt
 ```
 
 ---
 
 ## 📊 Sample Output
 
-```
-===== STUDENT ACTIVITY SUMMARY REPORT =====
+```id="output33"
+===== STUDENT ACTIVITY SUMMARY =====
 
-Total Time Spent by Each Student:
-  John: 90 minutes
-  Alice: 45 minutes
+Total Time by Students:
+John : 90 minutes
+Alice : 45 minutes
 
 Most Common Activity:
-  Lab (2 occurrences)
+Lab (2 times)
 
-Total Time Spent in Labs Per Day:
-  2026-04-01: 60 minutes
-  2026-04-02: 30 minutes
+Lab Time Per Day:
+2026-04-01 : 60 minutes
+2026-04-02 : 30 minutes
 
-===========================================
+==================================
 ```
 
 ---
 
 ## 🧠 How It Works
 
-* Uses `defaultdict` to store student and lab time efficiently
-* Uses `Counter` to track activity frequency
-* Ignores invalid or malformed rows automatically
+* Uses `defaultdict`
+* Uses `Counter`
+* Ignores invalid data
 
 ---
 
-## 🛠️ Tech Used
+## 🛠️ Tech Stack
 
 * Python 🐍
-* Collections Module (`Counter`, `defaultdict`)
+* collections module
 
 ---
 
-## 📌 Future Improvements
+## ⚡ Future Improvements
 
-* Add CSV file support
-* Export results to Excel or JSON
-* Create a simple web dashboard
-* Add data visualization (charts/graphs)
-
----
-
-## 🤝 Contributing
-
-Feel free to fork this repo and improve it! Pull requests are welcome.
+* Add graphs
+* Build web version
+* Support CSV/Excel
 
 ---
 
-## 📜 License
+## 👨‍💻 Author
 
-This project is open-source and free to use.
+**Omkar Koli**
+📌 Passionate about Python, coding, and building practical projects
 
 ---
 
-## ⭐ If you like this project
+## ⭐ Support
 
-Give it a star ⭐ on GitHub — it helps a lot!
+If you found this useful, give it a star ⭐
