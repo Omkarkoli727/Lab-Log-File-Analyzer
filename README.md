@@ -31,9 +31,9 @@ The script expects a `.txt` file with comma-separated values:
 
 ```
 Date, Student, Activity, Duration
-2026-04-01, John, Lab, 60
-2026-04-01, Alice, Lecture, 45
-2026-04-02, John, Lab, 30
+2026-04-01, Omkar, Lab, 60
+2026-04-01, vinitha, Lecture, 45
+2026-04-02, shashikant, Lab, 50
 ```
 
 ---
