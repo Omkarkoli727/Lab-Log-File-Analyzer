@@ -32,8 +32,8 @@ A Python script that reads a student activity log file, analyzes the data, and g
 ```id="input99"
 Date, Student, Activity, Duration
 2026-04-01, Omkar, Lab, 60
-2026-04-01, vinitha, Lecture, 45
-2026-04-02, shashikant, Lab, 50
+2026-04-01, Vinitha, Lecture, 45
+2026-04-02, Shashikant, Lab, 50
 ```
 
 ---
@@ -64,8 +64,8 @@ Activity_log4.txt → Activity_log4_out.txt
 ===== STUDENT ACTIVITY SUMMARY =====
 
 Total Time by Students:
-John : 90 minutes
-Alice : 45 minutes
+Omkar : 90 minutes
+Shashikant : 45 minutes
 
 Most Common Activity:
 Lab (2 times)
