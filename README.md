@@ -1,80 +1,72 @@
-# 📊 Student Activity Log Analyzer
+📊 Student Activity Log Analyzer
 
-A Python script that analyzes a student activity log and generates a summary report.
+A Python-based tool that reads a student activity log file, analyzes the data, and generates a summary report saved to a new output file 📄.
 
-The program reads an activity log file and calculates:
+🚀 Features
 
-* Total time spent by each student
-* Most common activity
-* Total time spent in labs per day
+✨ Reads activity logs from a user-provided file
+📊 Calculates total time spent by each student
+📌 Identifies the most common activity
+🧪 Tracks total lab time per day
+📁 Automatically generates an output report file
+🛡️ Skips invalid or incomplete data safely
 
-## ✨ Features
+📂 Input Format
 
-* Parses activity log text files
-* Calculates student activity durations
-* Identifies the most frequent activity
-* Summarizes lab usage per day
-* Handles invalid or incomplete rows safely
+The input file must be a comma-separated text file:
 
-## 📁 File Format
-
-The input file should be a comma-separated text file with the following format:
-
-```id="6as29v"
 Date, Student, Activity, Duration
 2026-03-01, Omkar, Lab, 40
 2026-03-01, Rahul, Lecture, 60
 2026-03-02, Omkar, Lab, 30
-```
-
-Fields:
-
-* **Date** – Activity date
-* **Student** – Student name
-* **Activity** – Type of activity (Lab, Lecture, etc.)
-* **Duration** – Time spent in minutes
-
-## ⚙️ How It Works
-
-The script reads the log file line by line and uses Python collections:
-
-* `defaultdict` to track total time per student
-* `Counter` to count activity frequency
-
-It then generates a summary report.
-
-## ▶️ Running the Script
-
-1. Make sure Python is installed.
-2. Place the activity log file in the same folder as the script.
-3. Run the script:
-
-```id="d7q3pd"
+▶️ How to Run
+1️⃣ Run the script
 python activity_analyzer.py
-```
+2️⃣ Enter input file name
+Enter input file name: activity.txt
+📄 Output
 
-## 🖥️ Example Output
+The program automatically creates an output file:
 
-```id="q9o41k"
-===== STUDENT ACTIVITY SUMMARY REPORT =====
+activity_out.txt
+🖥️ Example Output File Content
+===== STUDENT ACTIVITY SUMMARY =====
 
-Total Time Spent by Each Student:
-  Omkar: 120 minutes
-  Rahul: 60 minutes
+Total Time by Students:
+Omkar : 120 minutes
+Rahul : 60 minutes
 
 Most Common Activity:
-  Lab (5 occurrences)
+Lab (5 times)
 
-Total Time Spent in Labs Per Day:
-  2026-03-01: 70 minutes
-  2026-03-02: 50 minutes
-```
+Lab Time Per Day:
+2026-03-01 : 70 minutes
+2026-03-02 : 50 minutes
 
-## 🛠️ Technologies Used
+==================================
+⚙️ How It Works
+Uses defaultdict to track total time per student
+Uses Counter to calculate most frequent activity
+Processes file line-by-line for efficiency
+Automatically ignores:
+Empty lines
+Header row
+Invalid data
+🧠 Use Cases
 
-* Python
-* collections module (`Counter`, `defaultdict`)
+🎓 Student activity tracking
+🏫 Lab usage monitoring
+📊 Data analysis practice project
+💼 Beginner-friendly Python project for portfolios
 
-## 👨‍💻 Author
+🛠️ Tech Stack
+🐍 Python
+📦 collections module (Counter, defaultdict)
+🔮 Future Improvements
+Add CLI arguments instead of input()
+Export to CSV / Excel
+Add data visualization 📈
+Build a web interface
+👨‍💻 Author
 
 Omkar Koli
