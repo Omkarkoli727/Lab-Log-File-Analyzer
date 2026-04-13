@@ -1,0 +1,21 @@
+date, student, activity, duration
+25-12-2025,Omkar,coding,60
+25-12-2025,Vinitha,lab,90
+25-12-2025,Sheryash,debugging,50
+25-12-2025,Amrita,theory,60
+25-12-2025,Meghna,lab,90
+26-12-2025,Omkar,lab,80
+26-12-2025,Vinitha,coding,70
+26-12-2025,Sheryash,theory,60
+26-12-2025,Amrita,debugging,90
+26-12-2025,Meghna,coding,70
+27-12-2025,Omkar,theory,90
+27-12-2025,Vinitha,debugging,90
+27-12-2025,Sheryash,coding,80
+27-12-2025,Amrita,lab,70
+27-12-2025,Meghna,theory,60
+28-12-2025,Omkar,debugging,90
+28-12-2025,Vinitha,theory,60
+28-12-2025,Sheryash,lab,80
+28-12-2025,Amrita,coding,70
+28-12-2025,Meghna,debugging,60
