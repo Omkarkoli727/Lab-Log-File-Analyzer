@@ -105,10 +105,4 @@ Lab Time Per Day:
 ## 👨‍💻 Author
 
 **Omkar Koli**
-📌 Passionate about Python, coding, and building practical projects
 
----
-
-## ⭐ Support
-
-If you found this useful, give it a star ⭐
