@@ -2,7 +2,7 @@
 
 A Python script that reads a student activity log file, analyzes the data, and generates a structured summary report in a new output file.
 
-----
+---
 
 ## 🚀 Features
 
@@ -13,7 +13,7 @@ A Python script that reads a student activity log file, analyzes the data, and g
 * 🧪 Tracks total lab time per day
 * 🧹 Skips invalid or incorrect data safely
 
-----
+---
 
 ## 📂 Project Structure
 
