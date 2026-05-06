@@ -1,6 +1,6 @@
 # 📊 Student Activity Log Analyzer
 
-A Python script that reads a student activity log file, analyzes the data, and generates a structured summary report in a new output file.
+A Python script that reads a student activity log file, analyzes the data, and generates a structured summary report in a new output file...
 
 ---
 
