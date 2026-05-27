@@ -50,7 +50,7 @@ Enter input file name: Activity_log4.txt
 
 ---
 
-## 📤 Output
+## Output
 
 ```id="jjokku"
 Activity_log4.txt → Activity_log4_out.txt
