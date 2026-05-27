@@ -1,17 +1,17 @@
-# 📊 Student Activity Log Analyzer
+# Student Activity Log Analyzer
 
 A Python script that reads a student activity log file, analyzes the data, and generates a structured summary report in a new output file...
 
 ---
 
-## 🚀 Features
+## Features
 
-* 📥 Accepts custom input file from user
-* 📄 Automatically generates output file
-* ⏱️ Calculates total time spent by each student
-* 📊 Finds the most common activity
-* 🧪 Tracks total lab time per day
-* 🧹 Skips invalid or incorrect data safely
+* Accepts custom input file from user
+* Automatically generates output file
+* Calculates total time spent by each student
+* Finds the most common activity
+* Tracks total lab time per day
+* Skips invalid or incorrect data safely
 
 ---
 
@@ -27,7 +27,7 @@ A Python script that reads a student activity log file, analyzes the data, and g
 
 ---
 
-## 📝 Input File Format
+## `Input File Format
 
 ```id="input99"
 Date, Student, Activity, Duration
@@ -38,7 +38,7 @@ Date, Student, Activity, Duration
 
 ---
 
-## ▶️ How to Run
+## How to Run
 
 ```bash id="run22"
 python main.py
@@ -58,7 +58,7 @@ Activity_log4.txt → Activity_log4_out.txt
 
 ---
 
-## 📊 Sample Output
+## Sample Output
 
 ```id="output33"
 ===== STUDENT ACTIVITY SUMMARY =====
@@ -79,7 +79,7 @@ Lab Time Per Day:
 
 ---
 
-## 🧠 How It Works
+## How It Works
 
 * Uses `defaultdict`
 * Uses `Counter`
@@ -87,14 +87,14 @@ Lab Time Per Day:
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
-* Python 🐍
+* Python 
 * collections module
 
 ---
 
-## ⚡ Future Improvements
+## Future Improvements
 
 * Add graphs
 * Build web version
@@ -102,7 +102,7 @@ Lab Time Per Day:
 
 ---
 
-## 👨‍💻 Author
+## Author
 
 **Omkar Koli**
 
